@@ -4,14 +4,18 @@
   "description": "Express board engine with ejs",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "body-parser": "^1.20.3",
     "compression": "^1.7.5",
+    "ejs": "^3.1.10",
     "express": "^4.21.2",
     "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.18.1",
     "helmet": "^8.0.0"
   }
 }
